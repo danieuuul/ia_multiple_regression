@@ -5,15 +5,16 @@ name = "pypi"
 
 [packages]
 pandas = "*"
+seaborn = "*"
+matplotlib = "*"
 scikit-learn = "*"
 scipy = "*"
-matplotlib = "*"
-seaborn = "*"
-ipykernel = "*"
+pingouin = "*"
+statsmodels = "*"
+joblib = "*"
 gradio = "*"
 
 [dev-packages]
-ipykernel = "*"
 
 [requires]
 python_version = "3.12"
